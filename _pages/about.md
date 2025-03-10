@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am the 5-th-year Ph.D. student in the college of [Computer Science and Technology](http://www.cs.zju.edu.cn/) at 
-[Zhejiang University](http://www.zju.edu.cn/), fortunately advised by Prof. [Yang Yang](http://yangy.org/).
+[Zhejiang University](http://www.zju.edu.cn/), fortunately advised by Prof. [Yang Yang](http://yangy.org/) and [Yin Zhang](https://mypage.zju.edu.cn/yinzhang).
 
 My research focuses are refined to include large-scale time series analysis, the development of foundation model for time series, and an exploration of engaging topics and the latest advancements in technology within this domain.
 I have published several papers <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
@@ -29,15 +29,15 @@ If you are seeking any form of academic cooperation, please feel free to touch m
 
 
 # 🔥 News
-- *2024.09*: &nbsp;🎉🎉 Our manuscript titled “PowerPM and DMNet” has been successfully accepted for publication at NeurIPS 2024.
+- *2024.09*: &nbsp;🎉🎉 Our papers “PowerPM” and “DMNet” have been accepted by NeurIPS 2024.
 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/DMNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 DMNet: Self-comparison Driven Model for Subject-independent Seizure Detection \\
-Shihao Tu, [Linfeng Cao](https://caolinfeng.github.io/homepage/), [Daoze Zhang](https://daozezhang.github.io/), 
-**Junru Chen**, Lvbin Ma, Yin Zhang, [Yang Yang](http://yangy.org/) \\
+**Shihao Tu**, [Linfeng Cao](https://caolinfeng.github.io/homepage/), [Daoze Zhang](https://daozezhang.github.io/), 
+[Junru Chen](https://mrnobodycali.github.io/), Lvbin Ma, [Yin Zhang](https://mypage.zju.edu.cn/yinzhang), [Yang Yang](http://yangy.org/) \\
 Difference Matrix-based Neural Network (DMNet) addresses the domain shift in iEEG signals across different subjects by 
 leveraging a self-comparison mechanism for subject-independent automatic seizure detection.
 </div>
