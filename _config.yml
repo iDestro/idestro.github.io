@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Sio"
+title                    : "Theon"
 description              : "Ph.D. student at Zhejiang University. Main research focus: Time Series Analysis and Time Series Foundation Model."
 repository               : "iDestro/idestro.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shihao (Sio) Tu"
+  name             : "Shihao (Theon) Tu"
   avatar           : "images/avatar.jpg"
   bio              : "Zhejiang University"
   location         : "Hangzhou, China"
