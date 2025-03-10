@@ -21,8 +21,7 @@ I am the 5-th-year Ph.D. student in the college of [Computer Science and Technol
 [Zhejiang University](http://www.zju.edu.cn/), fortunately advised by Prof. [Yang Yang](http://yangy.org/).
 
 My research focuses are refined to include large-scale time series analysis, the development of foundation model for time series, and an exploration of engaging topics and the latest advancements in technology within this domain.
-I have published several papers
-<a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have published several papers <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
 at the top international AI conferences such NeurIPS.
 
 Currently, Currently, I am exploring the application of LLM in time series analysis to tackle complex industrial problems.
