@@ -24,7 +24,7 @@ My research focuses are refined to include large-scale time series analysis, the
 I have published several papers <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> 
 at the top international AI conferences such NeurIPS.
 
-Currently, Currently, I am exploring the application of LLM in time series analysis to tackle complex industrial problems.
+Currently, I am exploring the application of LLM in time series analysis to tackle complex industrial problems.
 If you are seeking any form of academic cooperation, please feel free to touch me. Meanwhile, **I am actively seeking job opportunities in the industry. If there are any relevant openings, I would greatly appreciate you reaching out. Thank you!**
 
 
