@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Toosio - Homepage"
+title                    : "Sio"
 description              : "Ph.D. student at Zhejiang University. Main research focus: Time Series Analysis and Time Series Foundation Model."
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "iDestro/idestro.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
