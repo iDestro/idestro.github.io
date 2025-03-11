@@ -55,4 +55,4 @@ leveraging a self-comparison mechanism for subject-independent automatic seizure
 - *2024.10 - Now*, [SUPCON](https://global.supcon.com/), Hangzhou, China.
 - *2025.2 - Now*, [Zhipu AI](https://zhipu.ai/), Beijing, China.
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=6W3Zm0micGlF6OtLV6hX0bDEx5BQaMz0up3jb1XO8tE&cl=ffffff&w=a"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=618cf4&w=300&t=m&d=6W3Zm0micGlF6OtLV6hX0bDEx5BQaMz0up3jb1XO8tE&co=ffffff&cmo=19e844&cmn=ff5353&ct=808080'></script>
