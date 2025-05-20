@@ -34,7 +34,7 @@ If you are seeking any form of academic cooperation, please feel free to touch m
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/ASTNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/ASTNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 ASTNet: Asynchronous Spatio-Temporal Network for Large-Scale Chemical Sensor Forecasting \\
 **Shihao Tu\***, [Yang Yang](http://yangy.org/), Wenyue Ding, Yicheng Lu, Qingkai Ren, Yupeng Zhang, [Yin Zhang](https://mypage.zju.edu.cn/yinzhang) \\
