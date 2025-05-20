@@ -29,9 +29,18 @@ If you are seeking any form of academic cooperation, please feel free to touch m
 
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 Our papers “ASTNet” have been accepted by KDD 2025.
 - *2024.09*: &nbsp;🎉🎉 Our papers “PowerPM” and “DMNet” have been accepted by NeurIPS 2024.
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/ASTNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+ASTNet: Asynchronous Spatio-Temporal Network for Large-Scale Chemical Sensor Forecasting \\
+**Shihao Tu\***, [Yang Yang](http://yangy.org/), Wenyue Ding, Yicheng Lu, Qingkai Ren, Yupeng Zhang, [Yin Zhang](https://mypage.zju.edu.cn/yinzhang) \\
+ASTNet proposes a novel approach for real-time spatiotemporal forecasting in chemical sensor networks, addressing computational latency and complex spatial dependencies. It features asynchronous modeling to reduce latency and dynamic graph fusion to enhance robustness.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/PowerPM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
