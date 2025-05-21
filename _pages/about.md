@@ -29,7 +29,7 @@ If you are seeking any form of academic cooperation, please feel free to touch m
 
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 Our papers “ASTNet” have been accepted by KDD 2025.
+- *2025.05*: &nbsp;🎉🎉 Our paper “ASTNet” have been accepted by KDD 2025.
 - *2024.09*: &nbsp;🎉🎉 Our papers “PowerPM” and “DMNet” have been accepted by NeurIPS 2024.
 
 # 📝 Publications 
