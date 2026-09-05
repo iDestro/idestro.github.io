@@ -1,0 +1,91 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "uDVGV84AAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Shihao Tu",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=uDVGV84AAAAJ&citpid=6",
+  "affiliation": "Zhejiang University",
+  "organization": 1118375729466322660,
+  "interests": [
+    "Time Series Analysis",
+    "Foundation Model"
+  ],
+  "email_domain": "@zju.edu.cn",
+  "homepage": "https://idestro.github.io/",
+  "citedby": 55,
+  "publications": {
+    "uDVGV84AAAAJ:u5HHmVD_uO8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Powerpm: Foundation model for power systems",
+        "pub_year": "2024"
+      },
+      "filled": false,
+      "author_pub_id": "uDVGV84AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 45,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8904558756669043859",
+      "cites_id": [
+        "8904558756669043859"
+      ]
+    },
+    "uDVGV84AAAAJ:u-x6o8ySG0sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "DMNet: self-comparison driven model for subject-independent seizure detection",
+        "pub_year": "2024"
+      },
+      "filled": false,
+      "author_pub_id": "uDVGV84AAAAJ:u-x6o8ySG0sC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9545442971239148482",
+      "cites_id": [
+        "9545442971239148482"
+      ]
+    },
+    "uDVGV84AAAAJ:d1gkVwhDpl0C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "ASTNet: Asynchronous Spatio-Temporal Network for Large-Scale Chemical Sensor Forecasting",
+        "pub_year": "2025"
+      },
+      "filled": false,
+      "author_pub_id": "uDVGV84AAAAJ:d1gkVwhDpl0C",
+      "num_citations": 3,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7143924736304990782",
+      "cites_id": [
+        "7143924736304990782"
+      ]
+    },
+    "uDVGV84AAAAJ:2osOgNQ5qMEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Unified Spatio-Temporal Tokens are Bases for Generalizable Traffic Forecasting",
+        "pub_year": "2026"
+      },
+      "filled": false,
+      "author_pub_id": "uDVGV84AAAAJ:2osOgNQ5qMEC",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 55,
+  "hindex": 3,
+  "hindex5y": 3,
+  "i10index": 1,
+  "i10index5y": 1,
+  "cites_per_year": {
+    "2024": 1,
+    "2025": 17,
+    "2026": 35
+  },
+  "updated": "2026-09-05T11:44:30.954189+00:00"
+}
