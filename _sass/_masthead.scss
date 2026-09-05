@@ -34,12 +34,67 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+
+  #site-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 0.15rem;
+  font-family: $sans-serif-narrow;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  padding-right: 0.25em;
+
+  button {
+    background: transparent;
+    border: 0;
+    padding: 0.35em 0.4em;
+    color: $masthead-link-color;
+    cursor: pointer;
+    font: inherit;
+    line-height: 1;
+    min-width: 24px;
+    min-height: 24px;
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+
+    &[aria-pressed="true"] {
+      color: $text-color;
+      font-weight: 700;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+  }
+
+  &__sep {
+    color: $masthead-link-color;
+    opacity: 0.45;
+    user-select: none;
   }
 }
 

@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Theon"
-description              : "Ph.D. student at Zhejiang University. Main research focus: Time Series Analysis and Time Series Foundation Model."
+description              : "Algorithm Development Expert at SUPCON. Ph.D., Zhejiang University. Research: time series analysis and time series foundation models."
+description_zh           : "中控算法开发专家，浙江大学博士。研究方向为时间序列分析与时间序列基础模型。"
 repository               : "iDestro/idestro.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,9 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Shihao (Theon) Tu"
+  name_zh          : "涂世豪"
   avatar           : "images/avatar.jpg"
-  bio              : "Zhejiang University"
+  bio              : "SUPCON"
+  bio_zh           : "中控"
   location         : "Hangzhou, China"
+  location_zh      : "杭州"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=uDVGV84AAAAJ"

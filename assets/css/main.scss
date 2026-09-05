@@ -107,3 +107,11 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+html[lang="zh"] .lang-en {
+    display: none !important;
+}
+
+html:not([lang="zh"]) .lang-zh {
+    display: none !important;
+}

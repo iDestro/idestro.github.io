@@ -1,4 +1,21 @@
 <meta charset="utf-8">
+<script>
+  (function () {
+    var lang = "en";
+    try {
+      var queryLang = new URLSearchParams(window.location.search).get("lang");
+      if (queryLang === "zh" || queryLang === "en") {
+        lang = queryLang;
+      } else {
+        var saved = window.localStorage.getItem("site-lang");
+        if (saved === "zh" || saved === "en") {
+          lang = saved;
+        }
+      }
+    } catch (e) {}
+    document.documentElement.lang = lang;
+  })();
+</script>
 
 {% include seo.html %}
 
