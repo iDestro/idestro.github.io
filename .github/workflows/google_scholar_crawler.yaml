@@ -19,6 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout previous citation data
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: google-scholar-stats
+          path: previous-stats
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -30,10 +37,23 @@ jobs:
           pip install -r google_scholar_crawler/requirements.txt
 
       - name: Fetch citation data
+        id: fetch
+        continue-on-error: true
         working-directory: google_scholar_crawler
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python main.py
+        run: timeout 90 python main.py
+
+      - name: Fall back to last published stats
+        if: steps.fetch.outcome != 'success'
+        run: |
+          if [ ! -f previous-stats/gs_data.json ] || [ ! -f previous-stats/gs_data_shieldsio.json ]; then
+            echo "Fetch failed and no previous citation data exists"
+            exit 1
+          fi
+          mkdir -p google_scholar_crawler/results
+          cp previous-stats/gs_data.json previous-stats/gs_data_shieldsio.json google_scholar_crawler/results/
+          echo "Google Scholar blocked or timed out; keeping previously published citation data"
 
       - name: Publish google-scholar-stats
         working-directory: google_scholar_crawler/results

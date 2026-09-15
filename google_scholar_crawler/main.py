@@ -1,9 +1,22 @@
-from scholarly import scholarly
 import json
-from datetime import datetime, timezone
 import os
 import sys
 import time
+from datetime import datetime, timezone
+from urllib.parse import parse_qs, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+
+PROFILE_URL = "https://scholar.google.com/citations?user={scholar_id}&hl=en&pagesize=100"
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/128.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 def require_scholar_id() -> str:
@@ -13,22 +26,57 @@ def require_scholar_id() -> str:
     return scholar_id
 
 
+def parse_profile(html: str, scholar_id: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    name_el = soup.select_one("#gsc_prf_in")
+    if name_el is None:
+        raise RuntimeError("Google Scholar returned no author profile (blocked or captcha)")
+
+    index_cells = soup.select("#gsc_rsb_st td.gsc_rsb_std")
+    citedby = 0
+    if index_cells:
+        citedby = int(index_cells[0].get_text(strip=True) or "0")
+
+    publications = {}
+    for row in soup.select("#gsc_a_b tr.gsc_a_tr"):
+        title_el = row.select_one("a.gsc_a_at")
+        if title_el is None:
+            continue
+        href = title_el.get("href") or ""
+        pub_id = parse_qs(urlparse(href).query).get("citation_for_view", [None])[0]
+        if not pub_id:
+            continue
+        cite_el = row.select_one("a.gsc_a_ac")
+        cite_text = cite_el.get_text(strip=True) if cite_el else ""
+        publications[pub_id] = {
+            "author_pub_id": pub_id,
+            "num_citations": int(cite_text) if cite_text.isdigit() else 0,
+            "bib": {"title": title_el.get_text(strip=True)},
+        }
+
+    return {
+        "name": name_el.get_text(strip=True),
+        "scholar_id": scholar_id,
+        "citedby": citedby,
+        "publications": publications,
+        "updated": datetime.now(timezone.utc).isoformat(),
+    }
+
+
 def fetch_author(scholar_id: str, retries: int = 3, delay_seconds: float = 8.0) -> dict:
+    url = PROFILE_URL.format(scholar_id=scholar_id)
     last_error = None
     for attempt in range(1, retries + 1):
         try:
-            author = scholarly.search_author_id(scholar_id)
-            scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+            print(f"Fetching Google Scholar profile (attempt {attempt}/{retries})", file=sys.stderr)
+            response = requests.get(url, headers=REQUEST_HEADERS, timeout=20)
+            response.raise_for_status()
+            lowered = response.text.lower()
+            if "sorry/index" in response.url or "not a robot" in lowered:
+                raise RuntimeError("Google Scholar served a captcha page")
+            author = parse_profile(response.text, scholar_id)
             if not author.get("name"):
                 raise RuntimeError("Google Scholar returned no author name")
-            publications = author.get("publications") or []
-            author["publications"] = {
-                item["author_pub_id"]: item
-                for item in publications
-                if item.get("author_pub_id")
-            }
-            author["citedby"] = author.get("citedby", 0)
-            author["updated"] = datetime.now(timezone.utc).isoformat()
             return author
         except Exception as error:
             last_error = error
