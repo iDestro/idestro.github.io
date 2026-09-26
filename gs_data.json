@@ -1,0 +1,36 @@
+{
+  "name": "Shihao Tu",
+  "scholar_id": "uDVGV84AAAAJ",
+  "citedby": 60,
+  "publications": {
+    "uDVGV84AAAAJ:u5HHmVD_uO8C": {
+      "author_pub_id": "uDVGV84AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 49,
+      "bib": {
+        "title": "Powerpm: Foundation model for power systems"
+      }
+    },
+    "uDVGV84AAAAJ:u-x6o8ySG0sC": {
+      "author_pub_id": "uDVGV84AAAAJ:u-x6o8ySG0sC",
+      "num_citations": 7,
+      "bib": {
+        "title": "DMNet: self-comparison driven model for subject-independent seizure detection"
+      }
+    },
+    "uDVGV84AAAAJ:d1gkVwhDpl0C": {
+      "author_pub_id": "uDVGV84AAAAJ:d1gkVwhDpl0C",
+      "num_citations": 4,
+      "bib": {
+        "title": "ASTNet: Asynchronous Spatio-Temporal Network for Large-Scale Chemical Sensor Forecasting"
+      }
+    },
+    "uDVGV84AAAAJ:2osOgNQ5qMEC": {
+      "author_pub_id": "uDVGV84AAAAJ:2osOgNQ5qMEC",
+      "num_citations": 0,
+      "bib": {
+        "title": "Unified Spatio-Temporal Tokens are Bases for Generalizable Traffic Forecasting"
+      }
+    }
+  },
+  "updated": "2026-09-19T12:22:09.760455+00:00"
+}
