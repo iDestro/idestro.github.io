@@ -20,20 +20,29 @@ redirect_from:
 <div class="lang-en" lang="en" markdown="1">
 I am an Algorithm Development Expert at [SUPCON](https://global.supcon.com/). I received my Ph.D. from the College of [Computer Science and Technology](http://www.cs.zju.edu.cn/) at [Zhejiang University](http://www.zju.edu.cn/) in December 2025, advised by Prof. [Yang Yang](http://yangy.org/) and [Yin Zhang](https://mypage.zju.edu.cn/yinzhang).
 
-My research focuses on large-scale time series analysis, time series foundation models, and related advances in this area.
-I have published several papers <a href='https://scholar.google.com/citations?user=uDVGV84AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>
-at top international AI conferences such as NeurIPS and KDD.
+My research focuses on **time series modeling and intelligent decision-making for the process industries**. I aim to build models that learn transferable dynamics from multivariate time series and support forecasting, simulation, and industrial decisions. My current interests include:
 
-Currently, I am exploring the application of LLMs in time series analysis to tackle complex industrial problems.
-If you are seeking academic collaboration, please feel free to contact me at [shihao.tu@zju.edu.cn](mailto:shihao.tu@zju.edu.cn).
+- **Time series foundation models:** learning temporal patterns and cross-variable dependencies at scale, with a focus on multivariate forecasting, conditioning on future-known covariates, and generalization across operating conditions and industrial processes.
+- **Dynamics and causal modeling:** studying how models learn process responses to control inputs, how causal structure and process knowledge can inform modeling, and how to evaluate models for simulation and control beyond forecasting accuracy.
+- **Industrial AI agents:** combining time series models, LLMs, and engineering tools to support predictive maintenance, anomaly diagnosis, and operational decision-making.
+
+My earlier work spans spatiotemporal forecasting in chemical sensor networks and traffic networks, foundation models for power systems, and cross-subject seizure detection. My work has appeared at NeurIPS and KDD <a href='https://scholar.google.com/citations?user=uDVGV84AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a>.
+
+I welcome collaborations on time series foundation models, dynamical systems, and industrial AI. Please feel free to contact me at [shihao.tu@zju.edu.cn](mailto:shihao.tu@zju.edu.cn).
 </div>
 
 <div class="lang-zh" lang="zh" markdown="1">
 我是涂世豪，现任[中控](https://global.supcon.com/)算法开发专家。2025年12月，我在[浙江大学](http://www.zju.edu.cn/)[计算机科学与技术学院](http://www.cs.zju.edu.cn/)获得博士学位，师从[杨洋](http://yangy.org/)教授、[张引](https://mypage.zju.edu.cn/yinzhang)教授。
 
-我的研究兴趣是大规模时间序列分析与时间序列基础模型，相关工作发表于 NeurIPS、KDD 等国际会议 <a href='https://scholar.google.com/citations?user=uDVGV84AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar 引用数"></a>。
+我的研究聚焦于**面向流程工业的时间序列建模与智能决策**，希望从多变量时序数据中学习可迁移的动力学规律，支撑预测、仿真与工业决策。目前主要关注：
 
-目前，我主要关注大语言模型在时间序列分析中的应用，并希望借此解决实际工业问题。如有合作想法，欢迎来信：[shihao.tu@zju.edu.cn](mailto:shihao.tu@zju.edu.cn)。
+- **时间序列基础模型**：通过大规模预训练学习时间模式与变量间依赖，重点研究多变量预测、未来已知协变量条件下的建模，以及跨工况、跨装置的泛化能力。
+- **动力学与因果建模**：研究模型如何学习工业过程对控制输入的响应，如何利用因果结构与工艺知识辅助建模，以及如何超越预测误差，从仿真与控制效果评价模型能力。
+- **工业智能体（Agent）**：结合时序模型、大语言模型与工程工具，探索预测性维护、异常诊断与运行决策辅助。
+
+此前，我的研究涉及化学传感器网络与交通网络的时空预测、电力系统基础模型，以及跨受试者癫痫检测，相关工作发表于 NeurIPS、KDD 等国际会议 <a href='https://scholar.google.com/citations?user=uDVGV84AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar 引用数"></a>。
+
+欢迎就时序基础模型、动力系统建模与工业 AI 开展交流合作：[shihao.tu@zju.edu.cn](mailto:shihao.tu@zju.edu.cn)。
 </div>
 
 <h1 id="-news"><span class="lang-en">🔥 News</span><span class="lang-zh">🔥 新闻</span></h1>

@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Theon"
-description              : "Algorithm Development Expert at SUPCON. Ph.D., Zhejiang University. Research: time series analysis and time series foundation models."
-description_zh           : "中控算法开发专家，浙江大学博士。研究方向为时间序列分析与时间序列基础模型。"
+description              : "Algorithm Development Expert at SUPCON. Ph.D., Zhejiang University. Research: time series foundation models, dynamics and causal modeling, and industrial AI agents."
+description_zh           : "中控算法开发专家，浙江大学博士。研究方向包括时序基础模型、动力学与因果建模、工业智能体，面向流程工业的预测、仿真与智能决策。"
 repository               : "iDestro/idestro.github.io"
 google_scholar_stats_use_cdn : true
 
