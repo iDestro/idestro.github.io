@@ -37,6 +37,7 @@ If you are seeking academic collaboration, please feel free to contact me at [sh
 </div>
 
 <h1 id="-news"><span class="lang-en">🔥 News</span><span class="lang-zh">🔥 新闻</span></h1>
+- *2026.09*: <span class="lang-en">&nbsp;🎉🎉 Our paper “Can Time-Series Foundation Models Serve as Simulators for Process Control?” has been accepted by the FMTS Workshop at NeurIPS 2026.</span><span class="lang-zh">&nbsp;🎉🎉 论文《Can Time-Series Foundation Models Serve as Simulators for Process Control?》被 NeurIPS 2026 FMTS Workshop 录用。</span>
 - *2026.05*: <span class="lang-en">&nbsp;🎉🎉 Our paper ``STUNet`` has been accepted by KDD 2026.</span><span class="lang-zh">&nbsp;🎉🎉 论文 ``STUNet`` 被 KDD 2026 录用。</span>
 - *2026.01*: <span class="lang-en">&nbsp;Joined [SUPCON](https://global.supcon.com/) as an Algorithm Development Expert.</span><span class="lang-zh">&nbsp;入职[中控](https://global.supcon.com/)，担任算法开发专家。</span>
 - *2025.12*: <span class="lang-en">&nbsp;Received my Ph.D. from Zhejiang University.</span><span class="lang-zh">&nbsp;于浙江大学获得博士学位。</span>
@@ -44,6 +45,14 @@ If you are seeking academic collaboration, please feel free to contact me at [sh
 - *2024.09*: <span class="lang-en">&nbsp;🎉🎉 Our papers ``PowerPM`` and ``DMNet`` have been accepted by NeurIPS 2024.</span><span class="lang-zh">&nbsp;🎉🎉 论文 ``PowerPM`` 与 ``DMNet`` 被 NeurIPS 2024 录用。</span>
 
 <h1 id="-publications"><span class="lang-en">📝 Publications</span><span class="lang-zh">📝 论文</span></h1>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026 · FMTS Workshop</div><img src='images/CTSFM.png' alt="Evaluation of response prediction, candidate control selection, and executed control" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+Can Time-Series Foundation Models Serve as Simulators for Process Control? \\
+**Shihao Tu**, Wenyue Ding, Peixuan Ding, Zhaoxiang Wu, Huiyang Wang, Xu Zhang, Yuxin Chen, Yicheng Lu, Xiang Shao, Yangjie Zheng \\
+<span class="lang-en">This study evaluates whether time-series foundation models can serve as simulators for process control, examining physical response fidelity, candidate evaluation, and closed-loop performance. On the tested noiseless linear processes, lower forecasting error does not always translate into better control, highlighting the need to jointly evaluate prediction, decision-making, and execution.</span><span class="lang-zh">本研究评估时序基础模型能否作为过程控制的仿真器，从物理响应保真度、候选控制方案评估和闭环控制效果三个层面进行检验。在所测试的无噪声线性过程中，较低的预测误差并不总能带来更好的控制效果，表明面向控制的模型评估需要同时考察预测、决策与执行。</span>
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='images/STUNet.png' alt="Architecture diagram of STUNet for traffic forecasting" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
